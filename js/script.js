@@ -11,7 +11,7 @@ let d1 = 'd'
 
 function clicou1(){
  res.innerHTML = 'RESPOSTA ERRADA'
- res.style.color = 'red'
+ res.style.color = 'white'
  a.style.background = 'red'
        
 }
