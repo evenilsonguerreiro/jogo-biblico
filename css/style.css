@@ -61,6 +61,7 @@ footer{
     text-align: center;
     padding: 8px;
     font-weight: bold;
+    color: white;
 }
 
 @media (min-width:256px) and (max-width:420px){
