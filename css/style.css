@@ -1,0 +1,86 @@
+body{
+    overflow-x: hidden;
+    background-color:#EF49F5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+h1{
+    text-shadow: 3px 3px 6px#000;
+}
+h2{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px#000;    
+}
+#link ,a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    
+}
+section{
+    width: 600px;
+    background-color:#11A88D;
+    border-radius: 10px;
+    margin: auto;
+    padding: 15px;
+
+}
+footer{
+    width: 610px;
+    margin: auto;
+    text-align: center;
+    color: rgb(10, 10, 10);
+    margin-top: 9px;
+    background-color: #11A88D;
+    padding: 10px;
+    border-radius: 15px;
+}
+#a, #b, #c, #d{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.2em;
+    width: 300px;
+    height: 40px;
+    border: 2px solid #fcfbfc;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #EF49F5;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+#res{
+    text-align: center;
+    padding: 8px;
+    font-weight: bold;
+}
+
+@media (min-width:256px) and (max-width:420px){
+    body{
+        overflow-x: hidden;
+    }
+    h1{
+        font-size: 1.2em;
+    }
+    h2{
+        font-size: 1em;
+    }
+    section{
+        width: 210px;
+    }
+    #a, #b, #c, #d {
+        width: 200px;
+    }
+    footer{
+        width:210px;
+        font-size: 0.8em;
+    }
+}
