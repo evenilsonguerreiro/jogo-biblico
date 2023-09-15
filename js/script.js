@@ -17,7 +17,7 @@ function clicou1(){
 }
 function clicou2(){
  res.innerHTML = 'RESPOSTA ERRADA'
- res.style.color = 'red'
+ res.style.color = 'white'
  b.style.background = 'red'
 }
 
@@ -31,7 +31,7 @@ function clicou3(){
 }
 function clicou4(){
  res.innerHTML = 'RESPOSTA ERRADA'
- res.style.color = 'red'
+ res.style.color = 'white'
  d.style.background = 'red'
     
 
